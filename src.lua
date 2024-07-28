@@ -69,16 +69,16 @@ if (Fearless.Intro) then
 end
 
 getgenv().hidden_settings = { -- hidden_settings.panic
-    silent_aim = false,
-    cam_aim = false,
-    lockon = false,
+    silent_aim = true,
+    cam_aim = true,
+    lockon = true,
     builtin_macro = false,
     triggerbot = false,
-    anti_lock = false,
+    anti_lock = true,
     no_clip_macro = false,
     right_click_held = false,
     esp_toggle = true,
-    panic = false,
+    panic = true,
 }
 
 if (getgenv().Fearless_executed) then return end 
